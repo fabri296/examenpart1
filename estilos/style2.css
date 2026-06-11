@@ -1,0 +1,59 @@
+* {
+    padding: 20 px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 5px;
+    grid-template-areas:
+        "c1 c2 c3 c4"
+        "c5 .  .  . "
+        "c6 c7 .  . "
+        "c8 .  .  . "
+        "c9 .  .  . ";
+}
+
+
+
+.c1 { 
+    grid-area:c1; 
+    background-color: yellow;
+}
+.c2 { 
+    grid-area:c2; 
+     background-color: yellow;
+}
+.c3 { 
+    grid-area:c3; 
+     background-color: yellow;
+}
+.c4 { 
+    grid-area:c4; 
+     background-color: yellow;
+}
+.c5 { 
+    grid-area:c5; 
+     background-color: yellow;
+}
+.c6 { 
+    grid-area: c6;
+     background-color: yellow; 
+}
+.c7 { 
+    grid-area:c7; 
+     background-color: yellow;
+}
+.c8 { 
+    grid-area:c8; 
+     background-color: yellow;
+}
+.c9 { 
+    grid-area: c9; 
+     background-color: yellow;
+}

@@ -1,0 +1,23 @@
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas:"cabecera cabecera cabecera"
+                        "menu box1 box2"    
+                        "pie pie pie";
+}
+.menu{
+    grid-area: menu;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.cabecera{
+    grid-area: cabecera;
+}
+.pie{
+    grid-area: pie;
+}
